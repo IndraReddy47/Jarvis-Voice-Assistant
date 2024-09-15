@@ -66,7 +66,7 @@ def processcommand(c):
 
        #incase if you are using open ai comment out these lines
        # else:
-       #    output = aiprocess(command)
+       #   output = aiprocess(command)
        #   speak(output)
        #   pass
 
