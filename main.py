@@ -13,9 +13,10 @@ def speak(text):
     engine.say(text)
     engine.runAndWait()
 
+#openai api is paid so i commented out here 
 '''def aiprocess(command):
     client = OpenAI(
-  api_key = "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",
+  api_key = "Enter your apikey",
 )
 
 completion = client.chat.completions.create(
@@ -63,7 +64,7 @@ def processcommand(c):
             print("the program is stopped. thank you")
             sys.exit()
 
-
+       #incase if you are using open ai comment out these lines
        # else:
        #    output = aiprocess(command)
        #   speak(output)
